@@ -61,3 +61,17 @@
 .title {
 	padding: 10px 0;
 }
+
+@media screen and (max-width: 768px) {
+	.contents {
+		width: 90%;
+	}
+
+	.content-item {
+		margin-top: 20px;
+	}
+
+	.content-item:first-child {
+		margin-top: 0;
+	}
+}
